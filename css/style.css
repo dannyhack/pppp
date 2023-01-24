@@ -1885,6 +1885,9 @@ footer .sssvg{
     .price h1{
         font-size: 30px;
     }
+    .con .wrapper .front:hover{
+    box-shadow: 2px 5px 25px #36495a;
+}
     .try-free{
         width: 100%;
         background-position: center;
