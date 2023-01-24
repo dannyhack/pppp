@@ -1074,7 +1074,7 @@ footer .sssvg{
     height: 45vh;
     background-image: linear-gradient( rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../images/b2.jpg);
     background-position: bottom left;
-    background-color: red;
+    /* background-color: red; */
     margin: 30px auto;
     padding: 30px 0px;
     display: flex;
@@ -1872,7 +1872,7 @@ footer .sssvg{
         min-height: 1550px;
     }
     .con .wrapper .card{
-        width: 100%;
+        width: 85%;
         max-height: 485px;
     }
     .con .wrapper .front .features .text-hold{
@@ -1885,11 +1885,17 @@ footer .sssvg{
     .price h1{
         font-size: 30px;
     }
+    .try-free{
+        width: 100%;
+        background-position: center;
+        
+    }
     .try-free h1{
         font-size: 30px;
     }
     .try-free .bottom{
         width: 95%;
+        margin-top: 15px;
     }
     .try-free .bottom  input{
         width: 100%;
@@ -1898,5 +1904,6 @@ footer .sssvg{
     .try-free .bottom  button{
         width: 100%;
         position: relative;
+        margin-bottom: -10px;
     }
 }
