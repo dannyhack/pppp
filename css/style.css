@@ -1888,18 +1888,25 @@ footer .sssvg{
     .try-free{
         width: 100%;
         background-position: center;
-        margin-bottom: -55px;
+        margin-bottom: -40px;
+        background-image: none;
     }
     .try-free h1{
         font-size: 30px;
+        color: #36536B;
+        font-weight: 400;
+    }
+    .try-free span{
+        color: #36536B;
     }
     .try-free .bottom{
         width: 95%;
-        margin-top: 15px;
+        margin-top: 25px;
     }
     .try-free .bottom  input{
         width: 100%;
         margin-bottom: 20px;
+        background-color: white;
     }
     .try-free .bottom  button{
         width: 100%;
