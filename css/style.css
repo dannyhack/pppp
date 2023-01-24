@@ -1872,7 +1872,7 @@ footer .sssvg{
         min-height: 1550px;
     }
     .con .wrapper .card{
-        width: 85%;
+        width: 90%;
         max-height: 485px;
     }
     .con .wrapper .front .features .text-hold{
@@ -1888,7 +1888,7 @@ footer .sssvg{
     .try-free{
         width: 100%;
         background-position: center;
-        
+        margin-bottom: -55px;
     }
     .try-free h1{
         font-size: 30px;
