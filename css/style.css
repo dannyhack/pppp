@@ -2216,6 +2216,7 @@ footer .sssvg{
     .more-details .left{
         width: 100%;
         height: auto;
+        margin-top: -20px;
     }
     .more-details .left h1{
         font-size: 30px;
@@ -2239,11 +2240,11 @@ footer .sssvg{
         width: 80%;
     }
     .more-details .right .item .hold .ic{
-        width: 55px;
+        width: 52px;
     }
     .more-details .right .item .hold .ic2{
-        height: 45px;
-        width: 80px;
+        /* height: 45px; */
+        width: 60px;
     }
     .more-details .right .item .hold .ic img{
         width: 74%;
@@ -2260,5 +2261,10 @@ footer .sssvg{
     }
     .rating .item2{
         width: 100%;
+    }
+    .teams .item h2{
+        font-weight: 300;
+        text-align: left;
+        font-size: 30px;
     }
 }
