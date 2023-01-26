@@ -1532,7 +1532,7 @@ footer .sssvg{
     100%{
         /* top: 190px;
         left: -60px; */
-        box-shadow: 0 0 0 8px #fbb32f02;
+        box-shadow: 0 0 0 12px #fbb32f02;
     }
 }
 @keyframes float {
@@ -1554,7 +1554,7 @@ footer .sssvg{
         box-shadow: 0 0 0 0 #d8e9f7;
     }
     100%{
-        box-shadow: 0 0 0 8px #fbb32f02;
+        box-shadow: 0 0 0 12px #fbb32f02;
     }
 }
 @keyframes float2 {
@@ -1576,7 +1576,7 @@ footer .sssvg{
         box-shadow: 0 0 0 0 rgba(161, 243, 161, 0.959);
     }
     100%{
-        box-shadow: 0 0 0 8px #fbb32f02;
+        box-shadow: 0 0 0 12px #fbb32f02;
     }
 }
 @keyframes float3 {
@@ -1586,7 +1586,7 @@ footer .sssvg{
     }
     50%{
         transform: translateY(-5px);
-        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.11);
+        box-shadow: 2px 7px 6px rgba(0, 0, 0, 0.11);
     }
     100%{
         transform: translateY(2px);
@@ -1598,7 +1598,7 @@ footer .sssvg{
         box-shadow: 0 0 0 0 #f5e9b6;
     }
     100%{
-        box-shadow: 0 0 0 8px #fbb42f11;
+        box-shadow: 0 0 0 12px #fbb42f11;
     }
 }
 @keyframes float4 {
