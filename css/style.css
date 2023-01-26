@@ -2612,6 +2612,9 @@ footer .sssvg{
         left: 225px;
         top: 120px;
     }
+    .background .left .btn-hold{
+        margin-left: 11px;
+    }
     .background .left .btn-hold button{
         padding: 10px 28px;
     }
