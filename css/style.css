@@ -2601,8 +2601,8 @@ footer .sssvg{
         letter-spacing: normal;
     }
     .background .right .float2{
-        top: 56px;
-        left: 210px;
+        top: 45px;
+        left: 218px;
     }
     .background .right .float3{
         left: 3px;
@@ -2616,7 +2616,7 @@ footer .sssvg{
         padding: 10px 28px;
     }
     .background .right .logo{
-        display: block;
+        display: none;
         left: 125px;
         top: 250px;
         width: 18%;
