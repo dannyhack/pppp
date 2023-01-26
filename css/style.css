@@ -1417,7 +1417,240 @@ footer .sssvg{
     margin-top: 22px;
     color: #ba4270;
 }
+.background{
+    width: 82.5%;
+    height: auto;
+    /* background-color: #D1DAE2; */
+    background-color: #d1dae236;
+    /* background-color: #334757; */
+    margin: 25px auto;
+    overflow: hidden;
+    position: relative;
+    filter: brightness(85%);
+    display: flex;
+    justify-content: space-between;
+    /* display: flex;
+    /* justify-content: right; */
+    
 
+}
+.background .left{
+    width: 45%;
+    /* background-color: red; */
+    height: 78vh;
+    padding-top: 135px;
+    padding-left: 30px;
+}
+.background .left h1{
+    font-family: 'Poppins-Regular.ttf';
+    font-size: 50px;
+    font-weight: 600;
+    color: #36536b;
+}
+.background .left span{
+    color: #ba4270;
+}
+.background .left .btn-hold{
+    width: 63%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.background .left .btn-hold button{
+    padding: 15px 28px;
+    border-radius: 25px;
+    outline: 0;
+    border: 2px solid #ba4270;
+    color: #36536b;
+    font-weight: 600;
+    font-family: 'Poppins-Regular.ttf';
+    background-color: #ba4270;
+}
+.background .left .btn-hold .btn-right button{
+    background-color: transparent;
+}
+.background .left .btn-hold .btn-right button:hover{
+    background-color: #ba4270;
+    color: white;
+}
+.background .left .btn-hold .btn-left button{
+    color: white;
+}
+.background .left .btn-hold .btn-left button:hover{
+    background-color: #DA6D97;
+    border-color: #DA6D97;
+}
+.background .right{
+    width: 45%;
+    /* background-color: red; */
+    height: 78vh;
+    position: relative;
+    background-image: url(../images/person\ \(2\).png);
+    background-position: -200px 0px;
+    background-size: 170%;
+    background-repeat: no-repeat;
+    filter: brightness(98%);
+}
+.background .right .logo{
+    position: absolute;
+    bottom: 30px;
+    left: 153px;
+    width: 19%;
+    opacity: .75;
+    mix-blend-mode: screen;
+    filter: blur(100px);
+    filter: brightness(400%);
+    transform: rotate(-0.7deg);
+}
+.background .right .float{
+    padding: 5px 13px;
+    /* background-color: #ba427042; */
+    background-color: #ecdce7;
+    width: fit-content;
+    border-radius: 30px;
+    font-family: 'Poppins-Regular.ttf';
+    font-size: 13px;
+    color: #36536b;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
+}
+.background .right .float1{
+    position: relative;
+    top: 190px;
+    left: -30px;
+    animation: float 6s ease-in-out infinite, rotate 2s infinite ease-in-out;
+    letter-spacing: 0.5px;
+}
+@keyframes rotate {
+    0%{
+        /* top: 190px;
+        left: -60px; */
+        box-shadow: 0 0 0 0 #ecdce7;
+    }
+    100%{
+        /* top: 190px;
+        left: -60px; */
+        box-shadow: 0 0 0 8px #fbb32f02;
+    }
+}
+@keyframes float {
+    0%{
+        transform: translateY(1px);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
+    }
+    50%{
+        transform: translateY(-3px);
+        box-shadow: 2px 7px 6px rgba(0, 0, 0, 0.11);
+    }
+    100%{
+        transform: translateY(1px);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
+    }
+}
+@keyframes rotate2 {
+    0%{
+        box-shadow: 0 0 0 0 #d8e9f7;
+    }
+    100%{
+        box-shadow: 0 0 0 8px #fbb32f02;
+    }
+}
+@keyframes float2 {
+    0%{
+        transform: translateY(-1px);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
+    }
+    50%{
+        transform: translateY(3px);
+        box-shadow: 2px 7px 6px rgba(0, 0, 0, 0.11);
+    }
+    100%{
+        transform: translateY(-1px);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
+    }
+}
+@keyframes rotate3 {
+    0%{
+        box-shadow: 0 0 0 0 rgba(161, 243, 161, 0.959);
+    }
+    100%{
+        box-shadow: 0 0 0 8px #fbb32f02;
+    }
+}
+@keyframes float3 {
+    0%{
+        transform: translateY(2px);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
+    }
+    50%{
+        transform: translateY(-5px);
+        box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.11);
+    }
+    100%{
+        transform: translateY(2px);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
+    }
+}
+@keyframes rotate4 {
+    0%{
+        box-shadow: 0 0 0 0 #f5e9b6;
+    }
+    100%{
+        box-shadow: 0 0 0 8px #fbb42f11;
+    }
+}
+@keyframes float4 {
+    0%{
+        transform: translateY(20px);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
+    }
+    50%{
+        transform: translateY(15px);
+        box-shadow: 2px 7px 6px rgba(0, 0, 0, 0.11);
+    }
+    100%{
+        transform: translateY(20px);
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
+    }
+}
+
+.background .right .float3{
+    position: relative;
+    top: 360px;
+    left: 355px;
+    background-color: rgba(161, 243, 161, 0.959);
+    animation: float 6s ease-in-out infinite, rotate3 2s infinite ease-in-out;
+    letter-spacing: 0.6px;
+}
+.background .right .float4{
+    position: relative;
+    top: 310px;
+    left: -80px;
+    background-color: #f5e9b6;
+    animation: float4 6s ease-in-out infinite, rotate4 2s infinite ease-in-out;
+}
+.background .right .float2{
+    position: relative;
+    top: 190px;
+    left: 320px;
+    background-color: #c8e4fa;
+    animation: float2 6s ease-in-out infinite, rotate2 2s infinite ease-in-out;
+    /* animation-delay: 1500ms; */
+}
+.background .right .img-hold{
+    overflow: hidden;
+}
+.background .person{
+    position: absolute;
+    bottom: -50px;
+    width: 170%;
+    left: -230px;
+}
+.about .s-hold{
+    display: none;
+}
 
 /* ============================== */
 /* ======== Mini-desktop ======== */
@@ -1509,6 +1742,15 @@ footer .sssvg{
     }
     .rating .item-hold{
         gap: 5em;
+    }
+    .background{
+        width: 95%;
+    }
+    .background .right{
+        background-position: -200px 50px;
+    }
+    .background .right .logo{
+        display: none;
     }
 }
 
@@ -1828,10 +2070,45 @@ footer .sssvg{
     .rating .item{
         height: auto;
     }
+    .background{
+        width: 100%;
+        height: auto;
+    }
+    .background .left{
+        max-height: 460px;
+        padding-left: 20px;
+    }
+    .background .right{
+        max-height: 460px;
+        width: 50%;
+        background-position: -160px 30px;
+    }
+    .background .right .float2{
+        left: 245px;
+    }
+    .background .right .float3{
+        left: 244px;
+    }
+    .background .left h1{
+        font-size: 35px;
+    }
+    .background .left .btn-hold{
+        width: 87%;
+    }
 }
 
 @media screen and (max-width: 768px){
-    
+    .background .right .float2{
+        left: 220px;
+    }
+    .background .right .float3{
+        left: 225px;
+    }
+    .background .right{
+        max-height: 460px;
+        width: 50%;
+        background-position: -160px 70px;
+    }
 }
 
 /* ======================== */
@@ -2186,7 +2463,9 @@ footer .sssvg{
         position: relative;
         margin-bottom: -10px;
     }
-
+    .about .s-hold{
+        display: block;
+    }
     
     /* ============================== */
     /* ======== about css ======== */
@@ -2296,5 +2575,50 @@ footer .sssvg{
     }
     .more-details .left button{
         margin: 30px 0px;
+    }
+    .background{
+        width: 88%;
+        flex-wrap: wrap;
+    }
+    .background .left{
+        width: 100%;
+        max-height: 280px;
+        padding-top: 20px;
+    }
+    .background .right{
+        width: 100%;
+        max-height: 280px;
+        background-position: -75px -10px;
+        background-size: 140%;
+    }
+    .background .right .float{
+        font-size: 9px;
+        padding: 8px 13px;
+    }
+    .background .right .float1{
+        top: 59px;
+        left: 5px;
+        letter-spacing: normal;
+    }
+    .background .right .float2{
+        top: 56px;
+        left: 210px;
+    }
+    .background .right .float3{
+        left: 3px;
+        top: 170px;
+    }
+    .background .right .float4{
+        left: 225px;
+        top: 120px;
+    }
+    .background .left .btn-hold button{
+        padding: 10px 28px;
+    }
+    .background .right .logo{
+        display: block;
+        left: 125px;
+        top: 250px;
+        width: 18%;
     }
 }
