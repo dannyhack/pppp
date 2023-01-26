@@ -1537,7 +1537,7 @@ footer .sssvg{
 }
 @keyframes float {
     0%{
-        transform: translateY(1px);
+        transform: translateY(3px);
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
     }
     50%{
@@ -1545,7 +1545,7 @@ footer .sssvg{
         box-shadow: 2px 7px 6px rgba(0, 0, 0, 0.11);
     }
     100%{
-        transform: translateY(1px);
+        transform: translateY(3px);
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
     }
 }
@@ -1559,7 +1559,7 @@ footer .sssvg{
 }
 @keyframes float2 {
     0%{
-        transform: translateY(-1px);
+        transform: translateY(-3px);
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
     }
     50%{
@@ -1567,7 +1567,7 @@ footer .sssvg{
         box-shadow: 2px 7px 6px rgba(0, 0, 0, 0.11);
     }
     100%{
-        transform: translateY(-1px);
+        transform: translateY(-3px);
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
     }
 }
@@ -1581,7 +1581,7 @@ footer .sssvg{
 }
 @keyframes float3 {
     0%{
-        transform: translateY(2px);
+        transform: translateY(5px);
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
     }
     50%{
@@ -1589,7 +1589,7 @@ footer .sssvg{
         box-shadow: 2px 7px 6px rgba(0, 0, 0, 0.11);
     }
     100%{
-        transform: translateY(2px);
+        transform: translateY(5px);
         box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.11);
     }
 }
