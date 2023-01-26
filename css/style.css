@@ -2584,6 +2584,7 @@ footer .sssvg{
         width: 100%;
         max-height: 280px;
         padding-top: 20px;
+        padding-left: 0px;
     }
     .background .right{
         width: 100%;
@@ -2597,7 +2598,7 @@ footer .sssvg{
     }
     .background .right .float1{
         top: 59px;
-        left: 5px;
+        left: 13px;
         letter-spacing: normal;
     }
     .background .right .float2{
@@ -2605,7 +2606,7 @@ footer .sssvg{
         left: 218px;
     }
     .background .right .float3{
-        left: 3px;
+        left: 6px;
         top: 170px;
     }
     .background .right .float4{
@@ -2613,7 +2614,7 @@ footer .sssvg{
         top: 120px;
     }
     .background .left .btn-hold{
-        margin-left: 11px;
+        margin: 30px auto;
     }
     .background .left .btn-hold button{
         padding: 10px 28px;
@@ -2626,5 +2627,7 @@ footer .sssvg{
     }
     .background .left h1{
         font-weight: 300;
+        text-align: center;
+        /* margin-left: -10px; */
     }
 }
