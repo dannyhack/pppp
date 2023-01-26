@@ -2206,20 +2206,47 @@ footer .sssvg{
         text-align: center;
         height: auto;
         margin-top: 30px;
+        padding-left: 15px;
     }
     .about-us .left h1{
         font-size: 30px;
+        font-weight: 600;
+        display: none;
+    }
+    .about-us .right p{
+        text-align: left;
+        letter-spacing: 1px;
     }
     .abt-image{
         height: 30vh;
+    }
+    .detail{
+        padding-left: 15px;
+    }
+    .detail .left h1, .detail .left p{
+        text-align: left;
+        letter-spacing: 1px;
+    }
+    .detail .right h1, .detail .right p{
+        text-align: left;
+        margin-left: -10px;
+        letter-spacing: 1px;
     }
     .more-details .left{
         width: 100%;
         height: auto;
         margin-top: -20px;
+        text-align: left;
+        padding-left: 15px;
     }
     .more-details .left h1{
         font-size: 30px;
+        text-decoration-color: #ba4270;
+        text-decoration-style: wavy;
+        text-decoration: wavy;
+    }
+    .more-details .left p{
+        letter-spacing: 1px;
     }
     .more-details .right{
         width: 100%;
@@ -2266,5 +2293,8 @@ footer .sssvg{
         font-weight: 300;
         text-align: left;
         font-size: 30px;
+    }
+    .more-details .left button{
+        margin: 30px 0px;
     }
 }
