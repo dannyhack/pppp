@@ -2621,4 +2621,7 @@ footer .sssvg{
         top: 250px;
         width: 18%;
     }
+    .background .left h1{
+        font-weight: 300;
+    }
 }
