@@ -2814,6 +2814,9 @@ footer .sssvg{
         height: fit-content;
         order: 2;
     }
+    .contact .contact-main .left form .btn button{
+        padding: 15px 0px;
+    }
     .contact .contact-main .left form{
         height: fit-content;
     }
