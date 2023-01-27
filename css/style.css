@@ -2847,5 +2847,9 @@ footer .sssvg{
     .contact .contact-main .left form .first{
         display: block;
     }
+    .loader-cont img{
+        margin-top: -50px;
+        margin-left: -25px;
+    }
 
 }
