@@ -2833,7 +2833,7 @@ footer .sssvg{
         max-height: 320px;
     }
     .contact2{
-        margin-top: 470px;
+        margin-top: 520px;
     }
     .botoms{
         flex-wrap: wrap;
@@ -2843,6 +2843,11 @@ footer .sssvg{
     .contact2 h1{
         font-size: 30px;
         font-weight: 300;
+        line-height: 35px;
+        margin-top: 8px;
+    }
+    .contact2 p{
+        margin-top: 8px;
     }
     .botoms .item{
         width: 85%;
