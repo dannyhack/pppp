@@ -2817,6 +2817,10 @@ footer .sssvg{
     .contact .contact-main .left form{
         height: fit-content;
     }
+    .contact .contact-main .left form input{
+        padding: 15px 0px;
+        padding-left: 10px;
+    }
     .contact2 .top{
         height: auto;
         padding: 0px 20px;
