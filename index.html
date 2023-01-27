@@ -8,10 +8,17 @@
     <title>PayApi</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./fonts/remixicon.css">
+    <script src="./js/jquery-1.10.2.min.js"></script>
 </head>
 
 <body>
+    <!-- <div class="loader-wrap">
+        <img class="loader" src="./images/logo.svg" alt="">
+    </div> -->
 
+    <div class="loader-cont">
+        <img src="./images/logo.svg" alt="">
+    </div>
     <div class="page">
 
         <div class="over">
@@ -53,7 +60,7 @@
                 <a href="./about us.html">
                     <li>About</li>
                 </a>
-                <a href="#a">
+                <a href="./contact.html">
                     <li>Contact</li>
                 </a>
             </ul>
@@ -78,7 +85,7 @@
                     <a href="./about us.html">
                         <li>About</li>
                     </a>
-                    <a href="#a">
+                    <a href="./contact.html">
                         <li>Contact</li>
                     </a>
                 </ul>
@@ -279,6 +286,18 @@
     </div>
 
     <script src="./js/script.js"></script>
+    <script>
+        $(document).ready(function(){
+            setTimeout(()=>{
+                $('.loader-cont').addClass(".loader-cont");
+            },1500);
+
+            setTimeout(()=>{
+                $('.loader-cont').remove(".loader-cont");
+            },4000);
+        })
+    </script>
+    
 </body>
 
 </html>

@@ -9,9 +9,14 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./fonts/remixicon.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <script src="./js/jquery-1.10.2.min.js"></script>
 </head>
 
 <body>
+
+    <div class="loader-cont2">
+        <img src="./images/logo.svg" alt="">
+    </div>
 
     <div class="pricing">
 
@@ -54,7 +59,7 @@
                 <a href="./about us.html">
                     <li>About</li>
                 </a>
-                <a href="#a">
+                <a href="./contact.html">
                     <li>Contact</li>
                 </a>
             </ul>
@@ -79,7 +84,7 @@
                     <a href="./about us.html">
                         <li>About</li>
                     </a>
-                    <a href="#a">
+                    <a href="./contact.html">
                         <li>Contact</li>
                     </a>
                 </ul>
@@ -586,7 +591,7 @@
                         <a href="./about us.html">
                             <li>About</li>
                         </a>
-                        <a href="#a">
+                        <a href="./contact.html">
                             <li>Contact</li>
                         </a>
                     </ul>
@@ -602,6 +607,18 @@
     </div>
 
     <script src="./js/script.js"></script>
+    
+    <script>
+        $(document).ready(function(){
+            setTimeout(()=>{
+                $('.loader-cont2').addClass(".loader-cont2");
+            },1500);
+
+            setTimeout(()=>{
+                $('.loader-cont2').remove(".loader-cont2");
+            },4000);
+        })
+    </script>
 </body>
 
 </html>

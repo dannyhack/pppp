@@ -9,10 +9,23 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./fonts/remixicon.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
+
+    <script src="./js/jquery-1.10.2.min.js"></script>
+  <script>
+    jQuery(document).ready(function( $ ) {
+        $('.counter').counterUp({
+            delay: 10,
+            time: 1000
+        });
+    });
+  </script>
 </head>
 
 <body>
 
+    <div class="loader-cont2">
+        <img src="./images/logo.svg" alt="">
+    </div>
     <div class="pricing about">
 
         <div class="over">
@@ -54,7 +67,7 @@
                 <a href="./about us.html">
                     <li>About</li>
                 </a>
-                <a href="#a">
+                <a href="./contact.html">
                     <li>Contact</li>
                 </a>
             </ul>
@@ -79,7 +92,7 @@
                     <a href="./about us.html">
                         <li>About</li>
                     </a>
-                    <a href="#a">
+                    <a href="./contact.html">
                         <li>Contact</li>
                     </a>
                 </ul>
@@ -99,7 +112,7 @@
                         <button>Get Started</button>
                     </div>
                    <div class="btn-right">
-                        <button>Veiw Pricing</button>
+                        <a href="./pricing.html"><button>Veiw Pricing</button></a>
                    </div>
                 </div>
             </div>
@@ -214,19 +227,19 @@
             <div class="item-hold">
                 <div class="item">
                     <p>Team Members</p>
-                    <h1 class="counter">300+</h1>
+                    <div class="count"><span class="counter">300</span><span>K</span></div>
                 </div>
                 <div class="item">
                     <p>Offices in the US</p>
-                    <h1 class="counter">30+</h1>
+                    <div class="count"><span class="counter">30</span><span>+</span></div>
                 </div>
                 <div class="item">
                     <p>Transactions</p>
-                    <h1 class="counter">10M+</h1>
+                    <div class="count"><span class="counter">60</span><span>M+</span></div>
                 </div>
                 <div class="item">
                     <p>Customers</p>
-                    <h1 class="counter">20K+</h1>
+                    <div class="count"><span class="counter">100</span><span>K</span></div>
                 </div>
             </div>
             <hr>
@@ -268,7 +281,7 @@
                         <a href="./about us.html">
                             <li>About</li>
                         </a>
-                        <a href="#a">
+                        <a href="./contact.html">
                             <li>Contact</li>
                         </a>
                     </ul>
@@ -283,7 +296,24 @@
         </footer>
     </div>
 
+    
+    
     <script src="./js/script.js"></script>
+    <script src="./js/jquery.waypoints.min.js"></script>
+    <script src="./js/jquery.counterup.min.js"></script>
+   
+    <script>
+        $(document).ready(function(){
+            setTimeout(()=>{
+                $('.loader-cont2').addClass(".loader-cont2");
+            },1500);
+
+            setTimeout(()=>{
+                $('.loader-cont2').remove(".loader-cont2");
+            },4000);
+        })
+    </script>
+    
 </body>
 
 </html>
