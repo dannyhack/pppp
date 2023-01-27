@@ -2851,7 +2851,12 @@ footer .sssvg{
         height: 100%;
     }
     .loader-cont img{
-         /* margin-top: -50px; */
+        margin-left: -27px;
+    }
+    .loader-cont2{
+        height: 100%;
+    }
+    .loader-cont2 img{
         margin-left: -27px;
     }
 
